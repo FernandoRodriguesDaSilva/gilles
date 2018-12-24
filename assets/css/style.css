@@ -1,0 +1,335 @@
+﻿body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size:20px;
+}
+
+h1,h2,h4 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#grad1 {
+  background-image: linear-gradient(to right, rgba(251, 251, 251, 0), rgb(14, 14, 14));
+}
+
+#intro.home-video { 
+  position: relative; 
+  margin: 0 auto; 
+  text-align: center;
+  height: 0;
+  padding-top: 20%;
+  padding-bottom: 30%;
+  position: relative;
+  overflow: hidden;
+}
+
+#intro.home-video .homevideo-container { height: 100%; width: 100%; position: absolute; z-index: 1; background-size: cover; }
+
+#intro.home-video .overlay { 
+  position: relative; 
+  height: 100%; 
+  z-index: 2; 
+  padding: 20% 0;
+}
+
+#intro.home-video .home-video-wrapper {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.video-caption h1 {
+  text-transform: uppercase;
+}
+
+.just-txt-div {
+  padding-bottom:30px;
+  padding-top:30px;
+}
+
+.just-txt-div p {
+  padding-top:10px;
+}
+
+.head-line {
+  font-weight:500;
+  text-align:center;
+  text-transform:uppercase;
+  font-size:30px;
+  font-family: 'Lobster', cursive;
+}
+.pad-set {
+  padding-top:50px;
+  padding-bottom:50px;
+}
+.pad-top {
+ padding-top:50px;
+}
+/* =============================================================
+   NAVBAR & MENU STYLES
+   ============================================================ */
+   .right-div {
+    float: right; 
+    padding: 20px;
+    color: #fff;
+    font-size:20px;
+  }
+  #menu-top a {
+    color:#fff;
+    text-decoration:none;
+    font-weight:500;
+    padding: 25px 15px 25px 15px;
+    text-transform:uppercase;
+    font-size:16px;
+    font-weight:900;
+    border-right: 2px solid rgb(137, 146, 187);
+  }
+  .menu-section {
+    background-color: black;
+    border-bottom:5px solid #545454;
+    width:100%
+  }
+  .menu-top-active {
+    background-color:#6380ff;
+  }
+  .navbar-inverse {
+    background-color: #FFF;
+    border-color: rgba(155, 153, 153, 0.23);
+  }
+
+  .navbar {
+    min-height: 70px;
+    margin-bottom: 0px;
+  }
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color:transparent;
+  }
+  .navbar-toggle {
+    background-color: black;
+    border: 1px solid black;
+  }
+
+  
+
+/* =============================================================
+   SLIDESHOW / CAROUSEL STYLES
+   ============================================================ */
+   #carousel-div {
+    border:3px solid #e1e1e1;
+  }
+  .carousel-caption {
+    top:50px;
+  }
+  .carousel-caption h1 {
+    text-align:center;
+    font-size:30px;
+    font-weight:900;
+    text-transform:uppercase;
+    background-color:rgba(0, 0, 0, 0.65);
+    max-width:440px;
+    padding:15px 25px;
+  }
+
+  .carousel-caption h2 {
+    text-align:center;
+    font-size:25px;
+    font-weight:900;
+    text-transform:uppercase;
+    background-color:rgba(0, 0, 0, 0.65);
+    max-width:340px;
+    padding:15px 25px;
+  }
+ /* =============================================================
+    PAGE STYLES
+    ============================================================ */
+    .below-slideshow {
+      color:#fff;
+      background:black;
+      padding-bottom:50px;
+
+    }
+    .below-slideshow i {
+      padding-bottom:15px;
+    }
+    .below-slideshow .txt-block {
+
+      padding-top:50px;
+    }
+    .below-slideshow h4 {
+      font-weight:800;
+      font-size:20px;
+      color: #6380ff;
+    }
+    .below-slideshow p {
+      padding-right:30px;
+      font-size: 18px;
+    }
+    .tag-home {
+      padding-top:50px;
+      padding-bottom:30px;
+      font-size:30px;
+      text-align:center;
+      line-height:45px
+    }
+
+    .tag-about{
+      padding-top:50px;
+      padding-bottom:30px;
+      font-size:20px;
+      text-align:center;
+      line-height:45px
+    }
+
+    .vedio-style {
+      border: 0px;
+      width: 100%;
+      min-height: 300px;
+    }
+
+    .footer {
+      margin-top:50px;
+      padding-top:30px;
+      color:#fff;
+      background:black;
+      padding-bottom:20px;
+      font-size: 0.9em;
+    }
+
+    .footer p{
+      font-size: 1.3em;
+    }
+    .flexslider {
+      -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0);
+      -moz-box-shadow: 0 0px 0px rgba(0,0,0,0);
+      -o-box-shadow: 0 0px 0px rgba(0,0,0,0);
+      box-shadow: 0 0px 0px rgba(0,0,0,0);
+    }
+    .social-div a,a:hover{
+      color:#fff;
+      text-decoration:none;
+    }
+
+    .Design h2{
+      font-size: 2.5em;
+    }
+
+    .Design p {
+      font-size: 1.3em;
+    }
+
+    .set-about-img {
+      border:10px double #01a2a6;
+      max-height:200px;
+    }
+
+    .button-tablet{
+      margin-left: 22em;
+      margin-top: 2em;
+    }
+
+    @media (min-width: 740px) and (max-width: 1040px) {
+      .carousel-caption h2 {
+        display: none;
+      }
+    }
+
+    @media (min-width: 100px) and (max-width: 740px) {
+      .carousel-caption h1 {
+        display: none;
+      }
+
+      .carousel-caption h2 {
+        display: none;
+      }
+    }
+    /* Estilo para tablet */
+    @media only screen and (min-width:481px) and (max-width:990px) {
+     .button-tablet{
+      margin-left: 13em;
+    }
+
+    .right-div{
+     color: black;
+     font-weight: 900;
+     float: left;
+     margin-top: 3.2em;
+   }
+
+   .navbar-header .navbar-toggle {
+    background-color: gray;
+  }
+
+  .img-tablet{
+    display: none;
+  }
+
+  #grad1 {
+    background-image:linear-gradient(to right, rgba(0, 0, 0, -0.11), rgb(0, 0, 0,0.79));
+  }
+
+  .caption span.border {
+    background-color: #111;
+    color: #fff;
+    /* margin-top: -26em; */
+    padding: 18px;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+
+
+}
+
+/* Estilo para smartphone */
+@media only screen and (min-width:0px) and (max-width:480px) {
+  .right-div{
+    color: black;
+    font-weight: 900;
+    float: left;
+    margin-top: 3.2em;
+  }
+
+  .navbar {
+   min-height: 0px; 
+   margin-bottom: 0px;
+   border: 0px solid transparent; 
+ }
+
+ #grad1 {
+  background-image:linear-gradient(to right, rgba(0, 0, 0, -0.11), rgb(0, 0, 0,0.79));
+}
+
+.navbar-header .navbar-toggle {
+  background-color: gray;
+}
+
+.navbar .mobile-header {
+  /* padding-left: 0px; */
+}
+
+.video-caption h1 {
+  font-size: 20px !important;
+}
+
+.tag-home{
+  padding-bottom: 0px;
+}
+
+.caption span.border {
+  line-height: 4em;
+}
+
+.button-mobile{
+  margin-left: 5em;
+}
+
+.bgimg-1 {
+  /* Trocar a imagem para mobile */
+  background-image: url(assets/img/2.jpg);
+  min-height: 300px;
+  background-repeat: no-repeat;
+}
+
+}
+
