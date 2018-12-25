@@ -39,6 +39,13 @@
         </div>
       </div>
       <div class="item">
+        <img src="assets/img/g1.jpg" alt="" />
+        <div class="carousel-caption">
+          <h1 class="wow slideInLeft" data-wow-duration="2s" >Regularização</h1>      
+          <h2 class="wow slideInRight" data-wow-duration="2s" >AVCB/CLCB</h2>  
+        </div>
+      </div>
+       <div class="item">
         <img src="assets/img/3.jpg" alt="" />
         <div class="carousel-caption">
           <h1 class="wow slideInLeft" data-wow-duration="2s" >Reformas</h1>      
@@ -50,6 +57,7 @@
     <ol class="carousel-indicators">
       <li data-target="#carousel-div" data-slide-to="0" class="active"></li>
       <li data-target="#carousel-div" data-slide-to="1"></li>
+      <li data-target="#carousel-div" data-slide-to="2"></li>
     </ol>
     <!--PREVIUS-NEXT BUTTONS-->
     <a class="left carousel-control" href="#carousel-div" data-slide="prev">

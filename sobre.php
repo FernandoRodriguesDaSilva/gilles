@@ -23,9 +23,19 @@
 	width: 100%;
 	text-align: center;
 	color: #000;
+} 
+
+h4 {
+	font-size: 1.5em;
+	color: green;
 }
 
-
+@media only screen and (min-width:0px) and (max-width:480px) {
+	h2 {
+		font-size: 1.2em;
+		font-weight: 600;
+	}
+	}
 </style>
 
 <hr/>
@@ -54,7 +64,7 @@
 
 	<div class="container">
 		<!-- Trigger the modal with a button -->
-		<button type="button" class=" text-center btn btn-info btn-lg button-mobile button-tablet" data-toggle="modal" data-target="#myModal">Entre em contato</button>
+		<button type="button" class=" text-center btn btn-info btn-lg button-mobile button-tablet button-modal" data-toggle="modal" data-target="#myModal">Entre em contato</button>
 		<!-- Modal -->
 		<div class="modal fade" id="myModal" style="padding-right: 20em;" role="dialog">
 			<div class="modal-dialog">
