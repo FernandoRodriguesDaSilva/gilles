@@ -1,6 +1,6 @@
 ﻿<?php include_once "includes/header.php"; ?>
 
-<section id="intro" class="home-video text-light">
+<section id="intro" class=" hidden-xs home-video text-light">
   <div class="home-video-wrapper">
     <div class="homevideo-container">
       <div id="P1" class="bg-player" style="display:block; margin: auto; background: rgba(0,0,0,0.5)" data-property="{videoURL:'https://www.youtube.com/watch?v=kVXlGt_Q4uE&feature=youtu.be',containment:'.homevideo-container', quality: 'hd720', showControls: false, autoPlay:true, mute:true, startAt:0, opacity:1}">
@@ -42,7 +42,7 @@
         <img src="assets/img/g1.jpg" alt="" />
         <div class="carousel-caption">
           <h1 class="wow slideInLeft" data-wow-duration="2s" >Regularização</h1>      
-          <h2 class="wow slideInRight" data-wow-duration="2s" >AVCB/CLCB</h2>  
+          <h2 class="wow slideInRight" data-wow-duration="2s" >AVCB/CLCB</h2>  g
         </div>
       </div>
        <div class="item">
